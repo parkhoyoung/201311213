@@ -1,7 +1,7 @@
-﻿public class Rectangle{
+public class RectangleArea{
 private int width;
 private int height;
-public Rectangle(int w,int h){
+public RectangleArea(int w,int h){
 this.width=w;
 this.height=h;
 }
@@ -25,7 +25,7 @@ public int calcArea(){
 return width*height;
 }
 }
-Rectangle r=new Rectangle(3,4);
+RectangleArea r=new RectangleArea(3,4);
 r.calcArea();
 System.out.println("Area: "+r.calcArea());
 r.setSize(4,5);
